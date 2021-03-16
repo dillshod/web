@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Form</title>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+
+</head>
+
+<body>
+    
+<form action="#" method="POST" enctype="multipart/form-data">
+    <div><p>ИМЯ</p>
+    <input placeholder="ИМЯ" tabindex="1" name="username" type="text">
+    </div>
+
+    <div><p>пароль</p>
+        <input placeholder="пароль" tabindex="2" name="userpass" type="password">
+    </div>
+
+    <div>
+        <p>телефон</p>
+        <input tabindex="3"  name="userphone" placeholder="телефон" type="tel">
+    </div>
+
+    <DIV>
+        <p>пол</p>
+        <div>
+            <input checked tabindex="4" type="radio" name="gender" value="male">Мужской
+        </div>
+        <div>
+            <input tabindex="4" type="radio" name="gender" value="femele"> Женский
+        </div>
+    </DIV>
+
+    <div>
+        <p>имущество</p>
+        <div>
+            <input tabindex="5" checked type="checkbox" name="bike" value="yes">велик
+        </div>
+        <div>
+            <input tabindex="6" type="checkbox" name="car" value="yes">машина
+        </div>
+        <div>
+            <input tabindex="7" disabled type="checkbox" name="house" value="yes"> квартира
+        </div>
+    </div>
+    <div>
+        <p>dop information</p>
+        <textarea tabindex="8" name="text" ></textarea>
+    </div>
+
+    <div>
+        <p>foto</p>
+        <input tabindex="9" type="file">
+    </div>
+
+    <div><p> color</p>
+    <select tabindex="10" name="color" >
+        <option  value="red"> red</option>
+        <option selected value="green">green</option>
+        <option disabled value="yellow">yellow</option>
+        
+    </select>
+    </div>
+    <div>
+        <p>deystviya</p>
+        <button tabindex="11" type="submit">otpravit</button>
+        <button tabindex="12" type="reset">ochistit</button>
+    </div>
+</form>
+
+
+</body>
+</html>
